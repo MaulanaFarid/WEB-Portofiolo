@@ -75,7 +75,7 @@ section:last-child{margin-bottom:0}
 .project-photos{display:flex;gap:8px;margin:8px 0 12px 0;flex-wrap:wrap}
 .project-photos img{width:180px;height:130px;object-fit:cover;border-radius:6px;cursor:pointer;transition:opacity 0.15s;border:1px solid var(--border)}
 .project-photos img:hover{opacity:0.85}
-.project-video{width:100%;max-width:360px;height:auto;border-radius:6px;border:1px solid var(--border)}
+.project-video{width:180px;height:130px;object-fit:cover;border-radius:6px;border:1px solid var(--border)}
 
 /* Footer */
 .site-footer{padding:20px 0;text-align:center;color:var(--muted);font-size:12px;border-top:1px solid var(--border)}
