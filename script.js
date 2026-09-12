@@ -78,3 +78,19 @@ document.querySelectorAll('video').forEach(video => {
   video.preload = 'metadata';
   videoObserver.observe(video);
 });
+
+// Dashboard iframe fallback
+document.querySelectorAll('.dashboard-iframe').forEach(iframe => {
+  iframe.addEventListener('error', () => {
+    const fallback = iframe.parentElement.querySelector('.dashboard-fallback');
+    if (fallback) fallback.style.display = 'flex';
+  });
+  setTimeout(() => {
+    try {
+      if (!iframe.contentDocument && !iframe.contentWindow) {
+        const fallback = iframe.parentElement.querySelector('.dashboard-fallback');
+        if (fallback) fallback.style.display = 'flex';
+      }
+    } catch(e) {}
+  }, 3000);
+});
