@@ -29,8 +29,9 @@ body{
 .actions{display:flex;gap:12px;align-items:center}
 .btn{background:var(--accent);color:#052224;padding:8px 12px;border-radius:8px;text-decoration:none;font-weight:600;transition:transform 0.2s, box-shadow 0.2s;display:inline-flex;align-items:center;gap:8px}
 .btn:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(110,231,183,0.3)}
-.btn:hover svg{transform:translateY(1px)}
-.btn svg{transition:transform 0.2s}
+.btn:hover svg,.btn:hover .btn-icon{transform:translateY(1px)}
+.btn svg,.btn-icon{transition:transform 0.2s}
+.btn-icon{width:18px;height:18px}
 .btn-outline{background:transparent;color:var(--accent);border:1px solid var(--accent)}
 .btn-outline:hover{background:var(--accent);color:#052224}
 .profile{display:grid;grid-template-columns:320px 1fr;gap:24px;margin-top:22px}
