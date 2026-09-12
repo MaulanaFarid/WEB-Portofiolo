@@ -38,7 +38,7 @@ body{
 .profile{display:grid;grid-template-columns:300px 1fr;gap:32px;margin-top:24px}
 .profile-left{padding:0}
 .profile-right{padding:0}
-h2{margin:0 0 10px 0;font-size:13px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:0.5px}
+h2{margin:0 0 12px 0;font-size:14px;font-weight:700;color:var(--text);text-transform:uppercase;letter-spacing:0.5px}
 h3{margin:0 0 4px 0;font-size:15px;font-weight:600}
 section{margin-bottom:28px}
 section:last-child{margin-bottom:0}
