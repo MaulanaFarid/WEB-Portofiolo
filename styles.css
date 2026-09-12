@@ -70,6 +70,7 @@ section:last-child{margin-bottom:0}
 .job ul li{margin-bottom:4px}
 .project-link{color:var(--accent);text-decoration:none}
 .project-link:hover{text-decoration:underline}
+.project-link::after{content:" ↗";font-size:11px;opacity:0.6}
 
 /* Project photos */
 .project-photos{display:flex;gap:8px;margin:8px 0 12px 0;flex-wrap:wrap}
